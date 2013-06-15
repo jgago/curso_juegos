@@ -1,5 +1,5 @@
 body {
-   font-family: Verdana, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+   font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
 }
 
 #title h1 {
@@ -13,7 +13,7 @@ body {
 #title h1 .short {
 	text-align: center;
 	display: inline-block;
-	color: red;
+/*	color: #ac0000;*/
    	text-transform: uppercase;
   	font-size: 1.07em;
  	padding: 0 120px 0 120px; 
@@ -28,7 +28,7 @@ body {
 	text-transform: uppercase;
   	font-size: .90em;
   	opacity: 0.4;
-  	background-color: yellow;
+  	background-color: #ccc;
   	text-transform: lowercase;
 }
 
