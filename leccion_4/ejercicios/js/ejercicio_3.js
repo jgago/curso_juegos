@@ -49,12 +49,14 @@ main = function() {
 	// 2. el setInterval
 
 	// AQUI EMPIEZA TU CODIGO
+
 	for (var i=0;i<imagenes.length;i++){
 		frames[i]=new Image();
 		frames[i].onload=onImageLoad;
 		frames[i].src=imagenes[i];
 	}
 	setInterval(animate,25);
+
     // AQUI TERMINA TU CODIGO
 };
 
@@ -69,9 +71,11 @@ var animate = function() {
 	// 2. Cambia el contador al siguiente frame
 
 	// AQUI EMPIEZA TU CODIGO
+
 	context.drawImage(frames[counter],100,10);
 
 	counter=(counter+1)%frames.length;
+
 	// AQUI TERMINA TU CODIGO
 }
 

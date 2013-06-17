@@ -16,10 +16,14 @@ main = function() {
 	// Ejercicio:
 	// cargamos una imagen de imagenes/person01.png
 	// AQUI EMPIEZA TU CODIGO
+<<<<<<< HEAD
 	var image=new Image();
 	
 	image.onload=onImageLoad;
 	image.src="imagenes/person01.png";
+=======
+
+>>>>>>> 72ceb89f91f1a64a4c0978603956ba146a6dadf4
 
 
     // AQUI TERMINA TU CODIGO
@@ -30,7 +34,11 @@ onImageLoad = function(){
 	// Nota: usa la funcion consola.log 
 
 	// AQUI EMPIEZA TU CODIGO
+<<<<<<< HEAD
 	console.log("la imagen se ha cargado");
+=======
+
+>>>>>>> 72ceb89f91f1a64a4c0978603956ba146a6dadf4
 
 
     // AQUI TERMINA TU CODIGO
